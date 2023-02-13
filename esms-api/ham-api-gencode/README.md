@@ -1,0 +1,2 @@
+# Hàm API Gencode
+
