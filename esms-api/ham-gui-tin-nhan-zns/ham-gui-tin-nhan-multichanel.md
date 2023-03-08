@@ -30,7 +30,8 @@ curl --location --request POST 'https://rest.esms.vn/MainService.svc/json/MultiC
             "Params": ["param1","param2","param3",....],
             "OAID": "{OAID}",
             "campaignid": "{campaignid}",
-            "CallbackUrl": "{CallbackUrl}"
+            "CallbackUrl": "{CallbackUrl}",
+            "RequestId":"{{RequestId}}"
         },
         {
             "Content": "{Content}",
@@ -55,6 +56,7 @@ curl --location --request POST 'https://rest.esms.vn/MainService.svc/json/MultiC
 | OAID <mark style="color:red;">\*</mark>      | <p>Zalo OA ID, là ID của trang Zalo Offical Account của doanh nghiệp. Doanh nghiệp cần đăng nhập vào trang quản trị của Zalo OA để lấy phần Zalo OA ID này. <br><strong>Chú ý: sẽ phải đăng ký trước khi sử dụng.</strong></p> |
 | RequestId                                    | <p>ID Tin nhắn của đối tác, dùng để kiểm tra ID này đã được hệ thống esms tiếp nhận trước đó hay chưa. <br>Ví dụ: RequestId=123456</p>                                                                                         |
 | campaignid                                   | Tên chiến dịch gửi tin, tối đa 254 ký tự                                                                                                                                                                                       |
+| RequestId                                    | <p>ID Tin nhắn của đối tác, dùng để kiểm tra ID này đã được hệ thống esms tiếp nhận trước đó hay chưa. <br>Ví dụ: RequestId=123456</p>                                                                                         |
 | CallbackUrl                                  | eSMS sẽ trả về kết quả của tin nhắn.                                                                                                                                                                                           |
 | Content <mark style="color:red;">\*</mark>   | Nội dung tin nhắn                                                                                                                                                                                                              |
 | IsUnicode                                    | <p>Gửi tin nhắn có dấu<br>0: Gửi tin không dấu<br>1: Gửi tin nhắn có dấu</p>                                                                                                                                                   |
