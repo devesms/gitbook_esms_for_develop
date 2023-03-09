@@ -11,7 +11,7 @@ VÍ DỤ 1 mẫu tin ZNS JOURNEY
 <figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 * **HTTP REQUEST**
-* URL: [http://restapi.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/)
+* URL: [http://rest.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/)
 * METHOD: POST
 * CONTENT TYPE: application/json   ****  &#x20;
 
