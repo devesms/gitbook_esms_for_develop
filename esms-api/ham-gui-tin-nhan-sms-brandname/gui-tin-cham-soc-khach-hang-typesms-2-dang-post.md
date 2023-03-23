@@ -8,18 +8,17 @@
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_post_json/' \
 --header 'Content-Type: application/json' \
---header 'Cookie: ASP.NET_SessionId=4zhxi2iaxcyqrlooff2u3vj1' \
 --data-raw '{
-   "ApiKey": "{ApiKey}",
-   "Content": "{Content}",
-   "Phone": "{Phone}",
-   "SecretKey": "{SecretKey}",
-   "Brandname": "{Brandname}",
+   "ApiKey": "{{ApiKey}}",
+   "Content": "{{Content}}",
+   "Phone": "{{Phone}}",
+   "SecretKey": "{{SecretKey}}",
+   "Brandname": "{{Brandname}}",
    "SmsType": "2",
-   "IsUnicode":0
-   "SandBox":0,
-   "RequestId":{RequestId},
-   "CallbackUrl":{CallbackUrl}
+   "IsUnicode": 0,
+   "SandBox": 0,
+   "RequestId": "{{RequestId}}",
+   "CallbackUrl": "{{CallbackUrl}}"
 }'
 ```
 
