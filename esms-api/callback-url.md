@@ -23,20 +23,21 @@ curl --location -g --request GET 'https://yourportal.sms/receivecallback/?SMSID=
 
 * Thông tin kết quả trả về của callback
 
-| Biến         | Định nghĩa                                                                                                                                  |
-| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| SMSID        | Mã tin nhắn                                                                                                                                 |
-| SendFailed   | Số lượng tin nhắn thất bại                                                                                                                  |
-| SendStatus   | <p>Trạng thái tin nhắn<br>1: Chờ duyệt<br>4: Từ chối<br>5: Đã gửi xong</p>                                                                  |
-| SendSuccess  | Số lượng tin thành công                                                                                                                     |
-| Totalprice   | Tổng tiền đơn                                                                                                                               |
-| TotalSent    | Tổng số lượng tin được gửi                                                                                                                  |
-| RequestId    | Mã request của khách hàng                                                                                                                   |
-| TypeId       | <p>Loại tin nhắn<br>1: tin quảng cáo<br>2: tin chăm sóc khách hàng<br>23: tin viber<br>24: tin zalo ưu tiên<br>25: tin zalo bình thường</p> |
-| telcoid      | <p>Nhà mạng<br>1: Viettel, 2: Mobi, 3: Vina, 4: Vietnammobile, 5: Gtel, 6: Itel, 7: Reddi</p>                                               |
-| phonenumber  | Số điện thoại người nhận                                                                                                                    |
-| partnerids   | Mã giao dịch của Zalo **(chỉ có đối với tin zalo)**                                                                                         |
-| error\_infor | Mã lỗi của tin nhắn **(chỉ có đối với tin zalo)**                                                                                           |
-| oaid         | ID của Oa gửi tin **(chỉ có đối với tin zalo)**                                                                                             |
-| tempid       | Tempid gửi tin **(chỉ có đối với tin zalo)**                                                                                                |
+| Biến          | Định nghĩa                                                                                                                                  |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| SMSID         | Mã tin nhắn                                                                                                                                 |
+| SendFailed    | Số lượng tin nhắn thất bại                                                                                                                  |
+| SendStatus    | <p>Trạng thái tin nhắn<br>1: Chờ duyệt<br>4: Từ chối<br>5: Đã gửi xong</p>                                                                  |
+| SendSuccess   | Số lượng tin thành công                                                                                                                     |
+| Totalprice    | Tổng tiền đơn                                                                                                                               |
+| TotalReceiver | Tổng số người nhận                                                                                                                          |
+| TotalSent     | Tổng số lượng tin được gửi                                                                                                                  |
+| RequestId     | Mã request của khách hàng                                                                                                                   |
+| TypeId        | <p>Loại tin nhắn<br>1: tin quảng cáo<br>2: tin chăm sóc khách hàng<br>23: tin viber<br>24: tin zalo ưu tiên<br>25: tin zalo bình thường</p> |
+| telcoid       | <p>Nhà mạng<br>1: Viettel, 2: Mobi, 3: Vina, 4: Vietnammobile, 5: Gtel, 6: Itel, 7: Reddi</p>                                               |
+| phonenumber   | Số điện thoại người nhận                                                                                                                    |
+| partnerids    | Mã giao dịch của Zalo **(chỉ có đối với tin zalo)**                                                                                         |
+| error\_infor  | Mã lỗi của tin nhắn **(chỉ có đối với tin zalo)**                                                                                           |
+| oaid          | ID của Oa gửi tin **(chỉ có đối với tin zalo)**                                                                                             |
+| tempid        | Tempid gửi tin **(chỉ có đối với tin zalo)**                                                                                                |
 
