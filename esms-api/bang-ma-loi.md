@@ -14,6 +14,7 @@
 | 146    | Sai template chăm sóc khách hàng.                                                 |
 | 177    | Nhà mạng chưa được đăng ký.                                                       |
 | 789    | Thiếu OA ID.                                                                      |
+| 790    | Sai template ZNS.                                                                 |
 | 300    | Thiếu loại tin nhắn.                                                              |
 | 788    | OAID không active.                                                                |
 | 204    | OAID không tồn tại trên hệ thống.                                                 |
