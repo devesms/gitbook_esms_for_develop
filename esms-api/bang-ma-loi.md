@@ -1,22 +1,3 @@
 # Bảng mã lỗi
 
-| Mã lỗi | Thông tin lỗi                                                                     |
-| ------ | --------------------------------------------------------------------------------- |
-| 100    | Request được gửi đến ViHAT thành công.                                            |
-| 101    | Sai thông tin ApiKey hoặc SecretKey.                                              |
-| 102    | Không có bảng giá.                                                                |
-| 103    | Không đủ số dư để gửi tin.                                                        |
-| 104    | Brandname/ Mã cuộc gọi không tồn tại.                                             |
-| 105    | Không tìm thấy mã tin nhắn/ Mã cuộc gọi trên hệ thống.                            |
-| 106    | File ghi âm không tồn tại.                                                        |
-| 107    | Mỗi request phải có ít nhất 30 số mới được duyệt.                                 |
-| 124    | Trùng RequestId khi gửi tin.                                                      |
-| 146    | Sai template chăm sóc khách hàng.                                                 |
-| 177    | Nhà mạng chưa được đăng ký.                                                       |
-| 789    | Thiếu OA ID.                                                                      |
-| 790    | Sai template ZNS.                                                                 |
-| 300    | Thiếu loại tin nhắn.                                                              |
-| 788    | OAID không active.                                                                |
-| 204    | OAID không tồn tại trên hệ thống.                                                 |
-| 171    | Mã đã được sử dụng, mã hết hạn hoặc mã không áp dụng cho số điện thoại cần check. |
-| 120    | Danh sách số điện thoại gửi tin vượt quá giới hạn.                                |
+<table><thead><tr><th width="146">Mã lỗi</th><th>Thông tin lỗi</th></tr></thead><tbody><tr><td>100</td><td>Request được gửi đến ViHAT thành công.</td></tr><tr><td>101</td><td>Sai thông tin ApiKey hoặc SecretKey.</td></tr><tr><td>102</td><td>Không có bảng giá.</td></tr><tr><td>103</td><td>Không đủ số dư để gửi tin.</td></tr><tr><td>104</td><td>Brandname/ Mã cuộc gọi không tồn tại.</td></tr><tr><td>105</td><td>Không tìm thấy mã tin nhắn/ Mã cuộc gọi trên hệ thống.</td></tr><tr><td>106</td><td>File ghi âm không tồn tại.</td></tr><tr><td>107</td><td>Mỗi request phải có ít nhất 30 số mới được duyệt.</td></tr><tr><td>124</td><td>Trùng RequestId khi gửi tin.</td></tr><tr><td>146</td><td>Sai template chăm sóc khách hàng.</td></tr><tr><td>177</td><td>Nhà mạng chưa được đăng ký.</td></tr><tr><td>789</td><td>Thiếu OA ID.</td></tr><tr><td>790</td><td>Sai template ZNS.</td></tr><tr><td>300</td><td>Thiếu loại tin nhắn.</td></tr><tr><td>788</td><td>OAID không active.</td></tr><tr><td>204</td><td>OAID không tồn tại trên hệ thống.</td></tr><tr><td>171</td><td>Mã đã được sử dụng, mã hết hạn hoặc mã không áp dụng cho số điện thoại cần check.</td></tr><tr><td>120</td><td>Danh sách số điện thoại gửi tin vượt quá giới hạn.</td></tr></tbody></table>

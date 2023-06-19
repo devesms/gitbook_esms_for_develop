@@ -1,27 +1,36 @@
 # Callback Url
 
-* Khi có trạng thái thực của tin nhắn. eSMS sẽ callback trạng thái về hook của khách hàng theo dạng GET.&#x20;
+* Khi có trạng thái thực của tin nhắn. eSMS sẽ callback trạng thái về hook của khách hàng theo dạng HTTP GET.&#x20;
 * Callback sẽ được retry 5 lần nếu như url của khách hàng trả timeout. Hết 5 lần mà url của khách hàng vẫn timeout thì sẽ ngừng callback.\
 
-* Callback mẫu cho loại tin CSKH:
 
+## Callback mẫu
+
+### Callback mẫu cho loại tin CSKH:
+
+{% code overflow="wrap" %}
 ```
 curl --location --request GET 'https://yourportal.sms/receivecallback/?SMSID=dc712784-9c5f-4c69-b9a8-ea69d56adc9a87&SendFailed=2&SendStatus=5&SendSuccess=0&TotalPrice=0.0000&TotalReceiver=2&TotalSent=2&RequestId=&TypeId=2&telcoid=1&phonenumber=0397840416&switchsmsid='
 ```
+{% endcode %}
 
-* Callback mẫu cho loại tin Quảng cáo:
+### Callback mẫu cho loại tin Quảng cáo:
 
+{% code overflow="wrap" %}
 ```
 curl --location --request GET 'https://yourportal.sms/receivecallback/?SMSID=82b0bb8aed914a0aab8deba567c9b8c2&SendFailed=0&SendStatus=5&SendSuccess=0&TotalPrice=696987.0000&TotalReceiver=169&TotalSent=169&RequestId=&TypeId=1'
 ```
+{% endcode %}
 
-* Callback mẫu cho lại tin ZNS:
+### Callback mẫu cho lại tin ZNS:
 
+{% code overflow="wrap" %}
 ```
 curl --location -g --request GET 'https://yourportal.sms/receivecallback/?SMSID=f66545d2-c7e2-4603-984e-d2238c363c8292&SendFailed=1&SendStatus=5&SendSuccess=0&TotalPrice=0.0000&TotalReceiver=1&TotalSent=0&RequestId=&TypeId=25&telcoid=2&phonenumber=0901888484&partnerids=&error_info="{\"error\":-114,\"message\":\"User is inactive, or reject the message, or using an outdated Zalo version, or other internal errors\"}"&oaid=1397492183140006179&tempid=2056446'
 ```
+{% endcode %}
 
-* Thông tin kết quả trả về của callback
+## Thông tin kết quả trả về của callback
 
 | Biến          | Định nghĩa                                                                                                                                  |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |

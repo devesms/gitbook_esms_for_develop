@@ -13,7 +13,7 @@ VÍ DỤ 1 mẫu tin ZNS JOURNEY
 * **HTTP REQUEST**
 * URL: [http://rest.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendZaloMessage\_V4\_post\_json/)
 * METHOD: POST
-* CONTENT TYPE: application/json   ****  &#x20;
+* CONTENT TYPE: application/json  &#x20;
 
 ```
 curl --location --request POST 'https://rest.esms.vn//MainService.svc/json/SendZaloMessage_V4_post_json/' \

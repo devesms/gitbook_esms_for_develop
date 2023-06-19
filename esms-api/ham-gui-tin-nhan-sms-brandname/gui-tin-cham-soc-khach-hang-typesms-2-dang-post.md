@@ -16,7 +16,8 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
    "Brandname": "{{Brandname}}",
    "SmsType": "2",
    "IsUnicode": 0,
-   "SandBox": 0,
+   "Sandbox": 0,
+   "campaignid": "{{campaignid}}"
    "RequestId": "{{RequestId}}",
    "CallbackUrl": "{{CallbackUrl}}"
 }'
@@ -35,6 +36,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 | SmsType <mark style="color:red;">\*</mark>   | <p>Loại tin nhắn<br>2: Tin CSKH</p>                                                                                                                     |
 | CallbackUrl                                  | Kết quả tin nhắn eSMS trả về                                                                                                                            |
 | RequestId                                    | <p>ID Tin nhắn của đối tác, dùng để kiểm tra ID này đã được hệ thống esms tiếp nhận trước đó hay chưa.<br>Ví dụ: requestid=123456</p>                   |
+| campaignid                                   | Tên chiến dịch gửi tin.                                                                                                                                 |
 | SendDate                                     | <p>Thời gian hẹn gửi của tin. <br>Không truyền khi tin muốn tin nhắn gửi đi liền.<br>Định dạng: yyyy-mm-dd hh:MM:ss</p>                                 |
 | SandBox                                      | <p>1: Tin thử nghiệm, không gửi tin nhắn, chỉ trả về kết quả SMS, tin không lưu hệ thống và không trừ tiền.<br>0: Không thử nghiệm, tin đi thật.</p>    |
 

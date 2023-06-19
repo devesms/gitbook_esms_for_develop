@@ -18,19 +18,7 @@ curl --location --request GET 'http://rest.esms.vn/MainService.svc/json/SendMult
 *
 * Thông tin request
 
-| Biến                                         | Định nghĩa                                                                                                                             |
-| -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| SmsType <mark style="color:red;">\*</mark>   | <p>Loại tin nhắn<br>23: Tin nhắn OTT Viber</p>                                                                                         |
-| OTTUrl                                       | Đường dẫn tên nút                                                                                                                      |
-| OTTImgUrl                                    | Đường dẫn hình ảnh                                                                                                                     |
-| Phone <mark style="color:red;">\*</mark>     | Số điện thoại người nhận                                                                                                               |
-| Content <mark style="color:red;">\*</mark>   | Nội dung gửi đến người nhận                                                                                                            |
-| ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                                                                                                                   |
-| SecretKey <mark style="color:red;">\*</mark> | Secretkey của tài khoản                                                                                                                |
-| Brandname <mark style="color:red;">\*</mark> | Tên Brandname (tên công ty hay tổ chức khi gửi tin sẽ hiển thị trên tin nhắn đó). Chú ý: sẽ phải đăng ký trước khi sử dụng.            |
-| OTTLabel                                     | Tên nút                                                                                                                                |
-| RequestId                                    | <p>ID Tin nhắn của đối tác, dùng để kiểm tra ID này đã được hệ thống esms tiếp nhận trước đó hay chưa. <br>Ví dụ: RequestId=123456</p> |
-| CallbackUrl                                  | eSMS sẽ trả về kết quả của tin nhắn.                                                                                                   |
+<table><thead><tr><th width="236">Biến</th><th>Định nghĩa</th></tr></thead><tbody><tr><td>SmsType <mark style="color:red;">*</mark></td><td>Loại tin nhắn<br>23: Tin nhắn OTT Viber</td></tr><tr><td>OTTUrl</td><td>Đường dẫn tên nút</td></tr><tr><td>OTTImgUrl</td><td>Đường dẫn hình ảnh</td></tr><tr><td>Phone <mark style="color:red;">*</mark></td><td>Số điện thoại người nhận</td></tr><tr><td>Content <mark style="color:red;">*</mark></td><td>Nội dung gửi đến người nhận</td></tr><tr><td>ApiKey <mark style="color:red;">*</mark></td><td>ApiKey của tài khoản</td></tr><tr><td>SecretKey <mark style="color:red;">*</mark></td><td>Secretkey của tài khoản</td></tr><tr><td>Brandname <mark style="color:red;">*</mark></td><td>Tên Brandname (tên công ty hay tổ chức khi gửi tin sẽ hiển thị trên tin nhắn đó). Chú ý: sẽ phải đăng ký trước khi sử dụng.</td></tr><tr><td>OTTLabel</td><td>Tên nút</td></tr><tr><td>RequestId</td><td>ID Tin nhắn của đối tác, dùng để kiểm tra ID này đã được hệ thống esms tiếp nhận trước đó hay chưa. <br>Ví dụ: RequestId=123456</td></tr><tr><td>CallbackUrl</td><td>eSMS sẽ trả về kết quả của tin nhắn.</td></tr></tbody></table>
 
 * **Lưu ý:** Tin nhắn OTT có thể có các lựa chọn sau:\
   \- OTTUrl – OTTImgUrl – Content – OTTLabel\
