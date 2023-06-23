@@ -43,6 +43,7 @@
   * [Hàm gửi tin Zalo Follower dạng List Menu](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-follower-dang-list-menu.md)
   * [Hàm gửi tin Zalo Follower dạng Button](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-follower-dang-button.md)
   * [Hàm gửi tin Zalo Follower dạng Yêu cầu thông tin người dùng](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-follower-dang-yeu-cau-thong-tin-nguoi-dung.md)
+  * [Hàm gửi tin Zalo Giao dịch](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-giao-dich.md)
   * [Hàm gửi tin ZNS JOURNEY](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zns-journey.md)
 * [Hàm gửi tin nhắn VIBER](esms-api/ham-gui-tin-nhan-viber/README.md)
   * [Hàm gửi tin nhắn Viber dạng GET](esms-api/ham-gui-tin-nhan-viber/ham-gui-tin-nhan-viber-dang-get.md)
