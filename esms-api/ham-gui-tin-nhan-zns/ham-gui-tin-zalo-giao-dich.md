@@ -100,7 +100,7 @@
                     
                         {
                         "title": "{title}",
-                        "image_icon": "https://minio.esms.vn/shared/ae9c1c34-a429-47a6-89a3-b7031c6b03fc20-png-trai-tim-chat-luong-cao-tuyet-dep-ks687-3.png",
+                        "image_icon": "{image_icon}",
                         "type": "oa.open.phone",
                         "payload": {
                             "phone_code": "{phone_code}"
