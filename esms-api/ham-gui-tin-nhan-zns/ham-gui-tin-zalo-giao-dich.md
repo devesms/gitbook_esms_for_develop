@@ -90,7 +90,7 @@
                             "payload": "{payload}"
                         },
                         {
-                            "title": "OPEN SMS",
+                            "title": "{title}",
                             "type": "oa.open.sms",
                             "payload": {
                                 "content": "{content}",
