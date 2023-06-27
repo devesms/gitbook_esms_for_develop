@@ -134,7 +134,3 @@
 | -------------- | ------------------------------------------------------------------------------------------------- |
 | SMSID          | ID của tin nhắn mới được tạo ra trên hệ thống eSMS. Dùng ID này để query lấy trạng thái tin nhắn. |
 
-* Mã lỗi
-
-<table><thead><tr><th>Mã </th><th>Ý nghĩa</th><th data-hidden></th></tr></thead><tbody><tr><td>100</td><td>Thành công</td><td></td></tr><tr><td>210</td><td>Không đúng payload theo quy định</td><td></td></tr></tbody></table>
-
