@@ -25,6 +25,7 @@
   * [Hàm kiểm tra chất lượng OA](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-kiem-tra-chat-luong-oa.md)
   * [Hàm lấy danh sách Zalo Followers](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-danh-sach-zalo-followers.md)
   * [Hàm lấy thông tin callback ZNS  (Type 24, 25)](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-thong-tin-callback-zns-type-24-25.md)
+  * [Hàm lấy thông tin chi tiết template ZNS](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-thong-tin-chi-tiet-template-zns.md)
 * [Hàm gửi tin nhắn SMS Brandname](esms-api/ham-gui-tin-nhan-sms-brandname/README.md)
   * [Gửi tin Chăm sóc khách hàng (TypeSMS 2) dạng GET](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-cham-soc-khach-hang-typesms-2-dang-get.md)
   * [Gửi tin Chăm sóc khách hàng (TypeSMS 2) dạng POST](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-cham-soc-khach-hang-typesms-2-dang-post.md)

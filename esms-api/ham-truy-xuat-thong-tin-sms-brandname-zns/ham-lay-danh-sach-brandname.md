@@ -6,7 +6,6 @@
 
 ```
 curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/GetListBrandname/{{ApiKey}}/{{SecretKey}}' \
---header 'Cookie: ASP.NET_SessionId=owevtxyrtqm5gvj5zwjfeb2z'
 ```
 
 * Thông tin request
