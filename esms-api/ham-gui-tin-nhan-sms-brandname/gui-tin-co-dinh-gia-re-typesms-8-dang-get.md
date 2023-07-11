@@ -6,7 +6,6 @@
 
 ```
 curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone={Phone}&Content={Content}&ApiKey={ApiKey}&SecretKey={SecretKey}&IsUnicode={IsUnicode}&Brandname={Brandname}&SmsType={SmsType}&CallbackUrl={CallbackUrl}&RequestId={RequestId}&SendDate=2022-08-03 10:00:00' \
---header 'Cookie: ASP.NET_SessionId=4zhxi2iaxcyqrlooff2u3vj1'
 ```
 
 * Thông tin request
