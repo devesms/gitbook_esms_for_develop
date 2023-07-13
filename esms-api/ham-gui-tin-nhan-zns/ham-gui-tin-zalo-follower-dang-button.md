@@ -1,4 +1,4 @@
-# Hàm gửi tin Zalo Follower dạng Button
+# Hàm gửi tin Zalo Tư Vấn dạng Button
 
 * HTTP request\
   URL: [http://rest.esms.vn/MainService.svc/json/SendZaloFollowerMessage\_V5\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendZaloFollowerMessage\_V5\_post\_json/)\
