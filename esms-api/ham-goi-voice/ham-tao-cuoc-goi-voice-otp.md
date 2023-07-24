@@ -1,3 +1,7 @@
+---
+description: Hàm tạo cuộc gọi VoiceOTP.
+---
+
 # Hàm tạo cuộc gọi voice OTP
 
 * HTTP request\
@@ -37,3 +41,5 @@ curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendM
 | Biến  | Định nghĩa                                                                                        |
 | ----- | ------------------------------------------------------------------------------------------------- |
 | SMSID | ID của tin nhắn mới được tạo ra trên hệ thống eSMS. Dùng ID này để query lấy trạng thái tin nhắn. |
+
+* **Lưu ý**: Sử dụng hàm trong link [Tại đây](../ham-truy-xuat-thong-tin-sms-brandname-zns/ham-kiem-tra-tin-nhan-theo-smsid.md) để tra cứu trạng thái cuộc gọi voiceOTP.
