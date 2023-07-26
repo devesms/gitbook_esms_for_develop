@@ -1,4 +1,18 @@
-# Hàm gửi tin Zalo Follower dạng Media
+---
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
+# Hàm gửi tin Zalo Tư Vấn dạng Media
 
 * HTTP request\
   URL: [http://rest.esms.vn/MainService.svc/json/SendZaloFollowerMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendZaloFollowerMessage\_V4\_post\_json/)\
