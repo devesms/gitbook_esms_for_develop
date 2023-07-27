@@ -43,6 +43,7 @@
   * [Hàm gửi tin nhắn MultiChanel](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-nhan-multichanel.md)
   * [Hàm gửi tin nhắn ZNS mỗi khách hàng một nội dung](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-moi-khach-hang-mot-noi-dung.md)
   * [Hàm gửi tin nhắn ZNS dạng X-Form](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-dang-x-form.md)
+  * [Hàm gửi tin nhắn ZNS dạng Json Full template.](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-dang-json-full-template..md)
   * [Hàm gửi tin Zalo Tư Vấn dạng Button](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-follower-dang-button.md)
   * [Hàm gửi tin Zalo Follower dạng Yêu cầu thông tin người dùng](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-follower-dang-yeu-cau-thong-tin-nguoi-dung.md)
   * [Hàm gửi tin Zalo Giao dịch](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zalo-giao-dich.md)
