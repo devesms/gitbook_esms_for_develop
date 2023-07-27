@@ -1,4 +1,4 @@
-# Hàm gửi tin nhắn ZNS dạng Json Full template.
+# Hàm gửi tin nhắn ZNS dạng Json Full template
 
 * HTTP request\
   URL: [http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_post\_json/)\
