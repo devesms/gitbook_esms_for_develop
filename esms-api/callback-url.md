@@ -46,7 +46,7 @@ curl --location -g --request GET 'https://yourportal.sms/receivecallback/?SMSID=
 | telcoid       | <p>Nhà mạng<br>1: Viettel, 2: Mobi, 3: Vina, 4: Vietnammobile, 5: Gtel, 6: Itel, 7: Reddi</p>                                               |
 | phonenumber   | Số điện thoại người nhận                                                                                                                    |
 | partnerids    | Mã giao dịch của Zalo **(chỉ có đối với tin zalo)**                                                                                         |
-| error\_infor  | Mã lỗi của tin nhắn **(chỉ có đối với tin zalo)**                                                                                           |
+| error\_info   | Mã lỗi của tin nhắn **(chỉ có đối với tin zalo)**                                                                                           |
 | oaid          | ID của Oa gửi tin **(chỉ có đối với tin zalo)**                                                                                             |
 | tempid        | Tempid gửi tin **(chỉ có đối với tin zalo)**                                                                                                |
 
