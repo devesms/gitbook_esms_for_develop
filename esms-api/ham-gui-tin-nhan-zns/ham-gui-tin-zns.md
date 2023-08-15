@@ -14,6 +14,7 @@ Ví dụ 1 mẫu tin ZNS\
   Method: POST\
   Content Type: application/json
 
+{% code overflow="wrap" %}
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendZaloMessage_V4_post_json/' \
 --header 'Content-Type: application/json' \
@@ -33,6 +34,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendZal
 }'
 
 ```
+{% endcode %}
 
 * Thông tin request
 

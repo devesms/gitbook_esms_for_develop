@@ -12,6 +12,7 @@ description: >-
   Method: POST\
   Content Type: application/json
 
+{% code overflow="wrap" %}
 ```
 curl --location --request POST 'https://rest.esms.vn/MainService.svc/json/MultiChannelMessage/' \
 --header 'Content-Type: application/json' \
@@ -43,6 +44,7 @@ curl --location --request POST 'https://rest.esms.vn/MainService.svc/json/MultiC
     ]
 }'
 ```
+{% endcode %}
 
 * Thông tin request
 

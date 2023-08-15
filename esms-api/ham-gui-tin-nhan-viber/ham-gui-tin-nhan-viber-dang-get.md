@@ -10,10 +10,12 @@ description: Cho phép bạn gửi tin nhắn đến số điện thoại đang 
   URL: [http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_get?SmsType={SmsType}\&OTTUrl={OTTUrl}\&OTTImgUrl={OTTImgUrl}\&Phone={Phone}\&Content={Content}\&ApiKey={ApiKey}\&SecretKey={SecretKey}\&Brandname={Brandname}\&OTTLabel={OTTLabel}\&CallbackUrl={CallbackUrl}](http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_get?SmsType={SmsType}\&OTTUrl={OTTUrl}\&OTTImgUrl={OTTImgUrl}\&Phone={Phone}\&Content={Content}\&ApiKey={ApiKey}\&SecretKey={SecretKey}\&Brandname={Brandname}\&OTTLabel={OTTLabel}\&CallbackUrl={CallbackUrl})\
   Method: GET
 
+{% code overflow="wrap" %}
 ```
 curl --location --request GET 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?SmsType={SmsType}&OTTUrl={OTTUrl}&OTTImgUrl={OTTImgUrl}&Phone={Phone}&Content={Content}&ApiKey={ApiKey}&SecretKey={SecretKey}&Brandname={Brandname}&OTTLabel={OTTLabel}&CallbackUrl={CallbackUrl}' \
 --header 'Cookie: ASP.NET_SessionId=hv0fnv0mv4i0qnmx2zrxetvf'
 ```
+{% endcode %}
 
 *
 * Thông tin request

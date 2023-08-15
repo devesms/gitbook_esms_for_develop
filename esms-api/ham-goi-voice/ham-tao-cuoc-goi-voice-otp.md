@@ -8,9 +8,11 @@ description: Hàm tạo cuộc gọi VoiceOTP.
   URL: <mark style="color:blue;">http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_get?Phone={Phone}\&Content={Content}\&ApiKey={ApiKey}\&SecretKey={SecretKey}\&IsUnicode={IsUnicode}\&SmsType={SmsType}\&CallbackUrl={CallbackUrl}\&RequestId={RequestId}</mark>\
   Method: GET
 
+{% code overflow="wrap" %}
 ```
 curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Phone={Phone}&Content={Content}&ApiKey={ApiKey}&SecretKey={SecretKey}&IsUnicode={IsUnicode}&Brandname={Brandname}&SmsType={SmsType}&CallbackUrl={CallbackUrl}&RequestId={RequestId}&SendDate=2022-08-03 10:00:00' \
 ```
+{% endcode %}
 
 * Thông tin request
 

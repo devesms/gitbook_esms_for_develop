@@ -5,6 +5,7 @@
   Method: POST\
   Content Type: application/json
 
+{% code overflow="wrap" %}
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_post/' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
@@ -15,6 +16,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 --data-urlencode 'Smstype={Smstype}' \
 --data-urlencode 'OAID={OAID}'
 ```
+{% endcode %}
 
 
 

@@ -10,10 +10,12 @@ description: >-
   URL: [http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode\_V4\_get?Phone={Phone}\&ApiKey={ApiKey}\&SecretKey={SecretKey}\&TimeAlive={TimeAlive}\&NumCharOfCode={NumCharOfCode}\&Brandname={Brandname}\&Type=2\&message={Content}](http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode\_V4\_get?Phone={Phone}\&ApiKey={ApiKey}\&SecretKey={SecretKey}\&TimeAlive={TimeAlive}\&NumCharOfCode={NumCharOfCode}\&Brandname={Brandname}\&Type=2\&message={Content})\
   Method: GET
 
+{% code overflow="wrap" %}
 ```
 curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode_V4_get?Phone={Phone}&ApiKey={ApiKey}&SecretKey={SecretKey}&TimeAlive={TimeAlive}&NumCharOfCode={NumCharOfCode}&Brandname={Brandname}&Type=2&message={Content}' \
 --header 'Cookie: ASP.NET_SessionId=nsvdja0b4rcfjf1o4szjxno0'
 ```
+{% endcode %}
 
 * Thông tin request
 

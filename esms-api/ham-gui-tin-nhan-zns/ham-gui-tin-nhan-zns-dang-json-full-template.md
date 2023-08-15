@@ -5,6 +5,7 @@
   Method: POST\
   Content Type: application/json
 
+{% code overflow="wrap" %}
 ```
 curl --location 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_post_json/' \
 --header 'Content-Type: application/json' \
@@ -18,6 +19,7 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4
     "IsUnicode": "1"
 }'
 ```
+{% endcode %}
 
 
 

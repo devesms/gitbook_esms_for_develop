@@ -10,9 +10,11 @@ description: >-
   URL: [http://voiceapi.esms.vn/MainService.svc/json/MakeCallTemplate\_V2?ApiKey={ApiKey}\&SecretKey={SecretKey}\&TemplateId={TemplateId}\&Phone={Phone}\&VariableListStr={VariableListStr}\&SendDate={SendDate}\&Voice={Voice}\&Speed={Speed}\&CallbackUrl={CallbackUrl}\&RequestId={RequestId}](http://voiceapi.esms.vn/MainService.svc/json/MakeCallTemplate\_V2?ApiKey={ApiKey}\&SecretKey={SecretKey}\&TemplateId={TemplateId}\&Phone={Phone}\&VariableListStr={VariableListStr}\&SendDate={SendDate}\&Voice={Voice}\&Speed={Speed}\&CallbackUrl={CallbackUrl}\&RequestId={RequestId})[  ](http://voiceapi.esms.vn/MainService.svc/json/MakeCallTemplate\_V2?ApiKey={ApiKey}\&SecretKey={SecretKey}\&TemplateId={TemplateId}\&Phone={Phone}\&VariableListStr={VariableListStr}\&SendDate={SendDate}\&Voice={Voice}\&Speed={Speed}\&CallbackUrl={CallbackUrl}\&RequestId={RequestId})\
   Method: GET
 
+{% code overflow="wrap" %}
 ```
 curl --location -g --request GET 'http://voiceapi.esms.vn/MainService.svc/json/MakeCallTemplate_V2?ApiKey={ApiKey}&SecretKey={SecretKey}&TemplateId={TemplateId}&Phone={Phone}&VariableListStr={VariableListStr}&SendDate={SendDate}&Voice={Voice}&Speed={Speed}&CallbackUrl={CallbackUrl}&RequestId={RequestId}'
 ```
+{% endcode %}
 
 * Thông tin request
 

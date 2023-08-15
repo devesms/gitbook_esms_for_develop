@@ -11,6 +11,7 @@ description: >-
   Method: POST\
   Content Type: application/json
 
+{% code overflow="wrap" %}
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode_V5' \
 --header 'Content-Type: application/json' \
@@ -24,6 +25,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMes
  "TypeId":"{TypeId}"
 }'
 ```
+{% endcode %}
 
 * Thông tin request
 

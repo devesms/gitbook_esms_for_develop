@@ -8,10 +8,12 @@ description: Hàm cho phép bạn gọi API check code xem đã sử dụng, h�
   URL: [http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode\_V5](http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode\_V5)\
   Method: GET
 
+{% code overflow="wrap" %}
 ```
 curl --location --request GET 'http://rest.esms.vn/MainService.svc/json/CheckCodeGen_V4_get?Phone={Phone}&ApiKey={ApiKey}&SecretKey={SecretKey}&Code={Code}' \
 --header 'Cookie: ASP.NET_SessionId=nsvdja0b4rcfjf1o4szjxno0'
 ```
+{% endcode %}
 
 * Thông tin request
 
