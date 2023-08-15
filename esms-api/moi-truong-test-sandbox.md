@@ -4,14 +4,17 @@
 * Truyền Sandbox = 1 cho tất cả loại tin.
 * Body mẫu cho gửi thử nghiệm tin nhắn Chăm sóc khách hàng:
 
+{% code overflow="wrap" %}
 ```
 curl --location -g --request GET 'curl --location --request GET '\''http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_get?Sandbox=1&SmsType=2&ApiKey={ApiKey}&SecretKey={SecretKey}&Brandname=Baotrixemay&Phone=0901888484&Content=Cam on quy khach da su dung dich vu cua chung toi. Chuc quy khach mot ngay tot lanh!'\'' \
 --header '\''Cookie: ASP.NET_SessionId=asfgp2dj1kt4kbg1yzuo35ky'\''' \
 --header 'Cookie: ASP.NET_SessionId=asfgp2dj1kt4kbg1yzuo35ky'
 ```
+{% endcode %}
 
 * Body mẫu cho gửi thử nghiệm tin nhắn ZNS:
 
+{% code overflow="wrap" %}
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendZaloMessage_V4_post_json/' \
 --header 'Content-Type: application/json' \
@@ -27,4 +30,5 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendZal
 "CallbackUrl":"https://enduxb9xt2ektmj.m.pipedream.net"
 }'
 ```
+{% endcode %}
 
