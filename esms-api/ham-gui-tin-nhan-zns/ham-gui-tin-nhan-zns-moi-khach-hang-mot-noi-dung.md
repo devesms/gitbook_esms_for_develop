@@ -38,8 +38,20 @@ description: >-
 ```
 {
     "CodeResult": "100",
-    "CountRegenerate": 0,
-    "SMSID": "ebe101db-87cd-4285-b97b-6a7a90455ded30"
+    "Message": "Sucess",
+    "TotalSuccess": 2,
+    "detail": [
+        {
+            "CodeResult": "100",
+            "Phone": "{Phone}",
+            "SMSID": "a037b928-cb7e-4bfc-bdf9-0286318163aa264"
+        },
+        {
+            "CodeResult": "100",
+            "Phone": "{Phone}",
+            "SMSID": "b83ff06e-8989-4b0d-818e-795b96699e86264"
+        }
+    ]
 }
 ```
 
