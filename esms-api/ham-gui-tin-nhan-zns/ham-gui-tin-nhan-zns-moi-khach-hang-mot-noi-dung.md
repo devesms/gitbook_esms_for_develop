@@ -23,7 +23,7 @@ description: >-
 {"Phone":"{Phone}","Params":["value1","value2","value3"]}
 ],
 "OAID":"{OAID}",
-"CallbackUrl":"{OAID}"
+"CallbackUrl":"{CallbackUrl}"
 }
 ```
 
