@@ -34,34 +34,27 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/ZNS/Get
 {
     "CodeResult": "100",
     "ErrorMessage": "success",
-    "Data": [
+    "Followers": [
         {
-            "feedbacks": [
-                "Nhân viên tư vấn nhiệt tình, thái độ vui vẻ, dễ thương",
-                "Chính sách hỗ trợ rõ ràng, đầy đủ và dễ hiểu",
-                "Chất lượng sản phẩm rất tốt",
-                "Giao hàng nhanh",
-                "Dịch vụ chăm sóc rất tốt"
-            ],
-            "msgId": "5dcf84fe1fd8bd85e4ca",
-            "note": "Tuyệt vời",
-            "rate": 5,
-            "submitDate": "1659750276218",
-            "trackingId": "0d22e763-adef-4d33-a612-76e63f7c1b58"
+            "User_Id": "7800378501923859642"
+        },
+        {
+            "User_Id": "4176617840488517388"
+        },
+        {
+            "User_Id": "7000997455428487634"
+        },
+        {
+            "User_Id": "5889364632581220929"
         }
     ],
-    "Total": 1
-}    
+    "Total": 208
+}
 ```
 
 * Thông tin kết quả trả về
 
-| Biến       | Định nghĩa                                                                                                                                                                                                                          |
-| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| feedbacks  | Tổng số tin được gửi trong ngày                                                                                                                                                                                                     |
-| msgId      | SmsId của Zalo                                                                                                                                                                                                                      |
-| note       | Ghi chút của khách hàng cho đánh giá                                                                                                                                                                                                |
-| rate       | Số sao khách hàng đánh giá                                                                                                                                                                                                          |
-| submitDate | <p>submitDate: Thời điểm khách hàng submit đánh giá. Biến submitDate sẽ có giá trị trong khoảng thời gian từ from_time đến to_time (được truyền vào từ request). <br><strong>Lưu ý: Tính theo timestamp (millisecond).</strong></p> |
-| trackingId | Tracking ID từ phía đối tác truyền vào khi gửi ZNS                                                                                                                                                                                  |
-| Total      | Tổng số lượt đánh giá                                                                                                                                                                                                               |
+| Biến      | Định nghĩa                      |
+| --------- | ------------------------------- |
+| Followers | Danh sách UserId Zalo follow OA |
+| Total     | Tổng UserId follow OA           |
