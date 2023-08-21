@@ -1,8 +1,8 @@
 ---
-description: Đây là hàm dùng để đăng ký template
+description: Đây là hàm dùng để đăng ký template ZNS
 ---
 
-# Hàm đăng ký template
+# Hàm đăng ký template ZNS
 
 
 

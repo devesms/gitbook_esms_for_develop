@@ -28,7 +28,7 @@
   * [Hàm lấy thông tin chi tiết template ZNS](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-thong-tin-chi-tiet-template-zns.md)
 * [Hàm đăng ký](esms-api/ham-dang-ky/README.md)
   * [Hàm đăng ký mua gói OA](esms-api/ham-dang-ky/ham-dang-ky-mua-goi-oa.md)
-  * [Hàm đăng ký template](esms-api/ham-dang-ky/ham-dang-ky-template.md)
+  * [Hàm đăng ký template ZNS](esms-api/ham-dang-ky/ham-dang-ky-template-zns.md)
 * [Hàm gửi tin nhắn SMS Brandname](esms-api/ham-gui-tin-nhan-sms-brandname/README.md)
   * [Gửi tin Chăm sóc khách hàng (TypeSMS 2) dạng GET](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-cham-soc-khach-hang-typesms-2-dang-get.md)
   * [Gửi tin Chăm sóc khách hàng (TypeSMS 2) dạng POST](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-cham-soc-khach-hang-typesms-2-dang-post.md)
