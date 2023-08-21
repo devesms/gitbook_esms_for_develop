@@ -5,8 +5,7 @@
   Method: POST \
   Content Type: application/json
 
-````
-```powershell
+```
 curl --location 'http://rest.esms.vn/MainService.svc/json/ZNS/GetQuality/' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -15,7 +14,6 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/ZNS/GetQuality/' \
  "SecretKey": "{{SecretKey}}"
 }'
 ```
-````
 
 * Thông tin request
 
