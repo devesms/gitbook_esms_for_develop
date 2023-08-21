@@ -1,8 +1,8 @@
 ---
-description: Đây là hàm dùng để đăng ký OA
+description: Đây là hàm dùng để đăng ký mua gói OA
 ---
 
-# Hàm đăng ký OA
+# Hàm đăng ký mua gói OA
 
 
 
