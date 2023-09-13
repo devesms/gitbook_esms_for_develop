@@ -1,5 +1,5 @@
 ---
-description: Cho phép bạn gửi tin nhắn đến số điện thoại đang sử sụng Viber
+description: Cho phép bạn gửi tin nhắn đến số điện thoại đang sử dụng Viber
 ---
 
 # Hàm gửi tin nhắn Viber dạng POST
