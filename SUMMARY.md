@@ -51,6 +51,7 @@
   * [Hàm gửi tin ZNS JOURNEY](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zns-journey.md)
 * [Hàm gửi tin nhắn VIBER](esms-api/ham-gui-tin-nhan-viber/README.md)
   * [Hàm gửi tin nhắn Viber dạng GET](esms-api/ham-gui-tin-nhan-viber/ham-gui-tin-nhan-viber-dang-get.md)
+  * [Hàm gửi tin nhắn Viber dạng POST](esms-api/ham-gui-tin-nhan-viber/ham-gui-tin-nhan-viber-dang-post.md)
 * [Hàm API Gencode](esms-api/ham-api-gencode/README.md)
   * [Hàm gencode V4](esms-api/ham-api-gencode/ham-gencode-v4.md)
   * [Hàm gencode V5](esms-api/ham-api-gencode/ham-gencode-v5.md)
