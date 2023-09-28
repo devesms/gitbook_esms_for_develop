@@ -53,10 +53,10 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/RegisZN
 
 * Thông tin kết quả trả về
 
-| Biến             | Định nghĩa                   |
-| ---------------- | ---------------------------- |
-| CodeResult       | Kết quả của Request          |
-| ErrorMessage     | Thông báo kết quả trả về     |
-| ServicepreviewId | ID đăng ký template phía eSM |
+| Biến             | Định nghĩa                  |
+| ---------------- | --------------------------- |
+| CodeResult       | Kết quả của Request         |
+| ErrorMessage     | Thông báo kết quả trả về    |
+| ServicepreviewId | ID template yêu cầu đăng ký |
 
 *

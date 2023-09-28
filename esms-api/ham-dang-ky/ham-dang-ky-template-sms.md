@@ -61,10 +61,10 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/SubServicePreviewJson/
 
 * Thông tin kết quả trả về
 
-| Biến             | Định nghĩa               |
-| ---------------- | ------------------------ |
-| CodeResult       | Kết quả của Request      |
-| ErrorMessage     | Thông báo kết quả trả về |
-| ServicepreviewId | ID brandname phía eSMS   |
+| Biến             | Định nghĩa                  |
+| ---------------- | --------------------------- |
+| CodeResult       | Kết quả của Request         |
+| ErrorMessage     | Thông báo kết quả trả về    |
+| ServicepreviewId | ID template yêu cầu đăng ký |
 
 *
