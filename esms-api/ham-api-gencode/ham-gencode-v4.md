@@ -12,8 +12,7 @@ description: >-
 
 {% code overflow="wrap" %}
 ```
-curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode_V4_get?Phone={Phone}&ApiKey={ApiKey}&SecretKey={SecretKey}&TimeAlive={TimeAlive}&NumCharOfCode={NumCharOfCode}&Brandname={Brandname}&Type=2&message={Content}' \
---header 'Cookie: ASP.NET_SessionId=nsvdja0b4rcfjf1o4szjxno0'
+curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendMessageAutoGenCode_V4_get?Phone={Phone}&ApiKey={ApiKey}&SecretKey={SecretKey}&TimeAlive={TimeAlive}&NumCharOfCode={NumCharOfCode}&Brandname={Brandname}&Type=2&message={Content}&IsNumber=0'
 ```
 {% endcode %}
 
@@ -29,6 +28,7 @@ curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/SendM
 | Brandname     | <p>Tên Brandname (tên công ty hay tổ chức khi gửi tin sẽ hiển thị trên tin nhắn đó). <br><strong>Chú ý: sẽ phải đăng ký trước khi sử dụng.</strong></p>                                                                                                   |
 | Type          | 2: Gửi chăm sóc khách hàng                                                                                                                                                                                                                                |
 | message       | <p>Nội dung tin nhắn<br>Thay thế mã code OTP bằng {OTP}<br>- Ví dụ: <br>Muốn nhận tin nhắn về máy với nội dung:<br>"686868 la ma xac minh dang ky Baotrixemay cua ban". Thì ở mục message truyền: "{OTP} la ma xac minh dang ky Baotrixemay cua ban".</p> |
+| IsNumber      | <p>0: code chứa chữ và số<br>1: code chỉ chứa số</p>                                                                                                                                                                                                      |
 
 * Kết quả trả về
 
