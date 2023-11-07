@@ -7,7 +7,7 @@ description: Cho phép bạn gửi tin nhắn đến số điện thoại đang 
 <figure><img src="../../.gitbook/assets/z3805790275867_46e18e1f7da57a7b7dff1484f0d4e7c2.jpg" alt=""><figcaption><p>Tin mẫu Viber</p></figcaption></figure>
 
 * HTTP request\
-  URL: [http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_post\_json/](http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_post\_json/)\
+  URL: [http://rest.esms.vn/MainService.svc/json/Send\_Multiple\_Sms\_OTT/](http://rest.esms.vn/MainService.svc/json/Send\_Multiple\_Sms\_OTT/)\
   Method: POST\
   Content Type: application/json
 
