@@ -13,7 +13,7 @@ description: Cho phép bạn gửi tin nhắn đến số điện thoại đang 
 
 {% code overflow="wrap" %}
 ```
-curl --location 'https://rest.esms.vn/MainService.svc/json/Send_Multiple_Sms_OTT/' \
+curl --location 'http://rest.esms.vn/MainService.svc/json/Send_Multiple_Sms_OTT/' \
 --header 'Content-Type: application/json' \
 --header 'Cookie: ASP.NET_SessionId=4nga3iwpro5vka3xffydrsgq' \
 --data '{
