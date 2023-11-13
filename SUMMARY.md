@@ -57,7 +57,7 @@
   * [Hàm gencode V5](esms-api/ham-api-gencode/ham-gencode-v5.md)
   * [Hàm check code](esms-api/ham-api-gencode/ham-check-code.md)
 * [Kết nối mã SVoucher](esms-api/ket-noi-ma-svoucher/README.md)
-  * [Kết nối đầu số 8X40](esms-api/ket-noi-ma-svoucher/ket-noi-dau-so-8x40.md)
+  * [Kết nối đầu số ngắn](esms-api/ket-noi-ma-svoucher/ket-noi-dau-so-ngan.md)
 * [Hàm gọi Voice](esms-api/ham-goi-voice/README.md)
   * [Hàm tạo cuộc gọi voice OTP](esms-api/ham-goi-voice/ham-tao-cuoc-goi-voice-otp.md)
   * [Hàm tạo cuộc gọi tự động theo Template](esms-api/ham-goi-voice/ham-tao-cuoc-goi-tu-dong-theo-template.md)

@@ -1,8 +1,8 @@
-# Kết nối đầu số 8X40
+# Kết nối đầu số ngắn
 
 ## _**1: Thông tin kết nối:**_
 
-### **Bước 1:** Khi khách hàng gửi tin nhắn lên đầu số 8x40, phía eSMS sẽ gọi 1 request như bên dưới sang đối tác
+### **Bước 1:** Khi khách hàng gửi tin nhắn lên đầu số ngắn, phía eSMS sẽ gọi 1 request như bên dưới sang đối tác
 
 {% code title="HTTP GET" overflow="wrap" fullWidth="false" %}
 ```http
