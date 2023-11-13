@@ -61,13 +61,13 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/GetSmsS
 
 * Thông tin kết quả trả về
 
-| Biến         | Định nghĩa                           |
-| ------------ | ------------------------------------ |
-| Content      | Nội dung tin nhắn                    |
-| Phone        | Số điện thoại nhận tin nhắn          |
-| RefercenceId | SmsId trả về từ các hàm gửi tin nhắn |
-| Sellprice    | Giá của tin                          |
-| Sendstatus   | Trạng thái gửi tin                   |
-| SentTime     | Thời gian gửi tin                    |
-| SmsId        | Id của tin nhắn trên giao diện       |
-| SmsType      | Loại tin nhắn                        |
+| Biến         | Định nghĩa                                                               |
+| ------------ | ------------------------------------------------------------------------ |
+| Content      | Nội dung tin nhắn                                                        |
+| Phone        | Số điện thoại nhận tin nhắn                                              |
+| RefercenceId | SmsId trả về từ các hàm gửi tin nhắn                                     |
+| Sellprice    | Giá của tin                                                              |
+| SentStatus   | <p>Trạng thái gửi tin<br>true: Tin thành công<br>false: Tin thất bại</p> |
+| SentTime     | Thời gian gửi tin                                                        |
+| SmsId        | Id của tin nhắn trên giao diện                                           |
+| SmsType      | Loại tin nhắn                                                            |
