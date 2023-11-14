@@ -10,7 +10,7 @@ curl --location --request POST 'http://status-sms.esms.vn/ZaloCallback/GetCallba
 --header 'Content-Type: application/json' \
 --data-raw '{
     "ListRefid": [
-        "4a496110-9fd3-4838-ac8b-bcaa36616f7073"
+        "4a496110-9fd3-4838-ac8b-bcaa36616f7011"
     ],
     "OAId": "OAID"
 }'
@@ -31,7 +31,7 @@ curl --location --request POST 'http://status-sms.esms.vn/ZaloCallback/GetCallba
     "Message": "Success",
     "Data_callback": [
         {
-            "SMSID": "6acd0873-1376-49ec-89bd-2742d4354a2112",
+            "SMSID": "4a496110-9fd3-4838-ac8b-bcaa36616f7011",
             "SendFailed": 1,
             "SendSuccess": 0,
             "SendStatus": 5,
@@ -41,8 +41,8 @@ curl --location --request POST 'http://status-sms.esms.vn/ZaloCallback/GetCallba
             "RequestId": null,
             "TypeId": 25,
             "Telcoid": 1,
-            "PhoneNumber": "0986022228",
-            "CallbackUrl": "https://api.futabus.vn/zalo-zns/zns/receive-callback",
+            "PhoneNumber": "0909090909",
+            "CallbackUrl": "https://api.esms.vn/zalo-zns/zns/receive-callback",
             "Partnerids": "7984e9b198c40e9957d6",
             "ErrorInfo": "{\"error\":-124,\"message\":\"Access token is invalid\"}Object reference not set to an instance of an object.",
             "OAId": "1090257973118325189",
