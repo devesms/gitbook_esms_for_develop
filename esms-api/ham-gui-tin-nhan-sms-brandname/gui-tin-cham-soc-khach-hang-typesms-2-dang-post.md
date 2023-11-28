@@ -31,7 +31,8 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 | Content <mark style="color:red;">\*</mark>   | Nội dung tin nhắn                                                                                                                                       |
 | ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                                                                                                                                    |
 | SecretKey <mark style="color:red;">\*</mark> | Secretkey của tài khoản                                                                                                                                 |
-| Unicode                                      | <p>Gửi nội dung có dấu<br>1: Có dấu<br>0: Không dấu</p>                                                                                                 |
+| <pre><code>IsUnicode
+</code></pre>           | <p>Gửi nội dung có dấu<br>1: Có dấu<br>0: Không dấu</p>                                                                                                 |
 | Brandname <mark style="color:red;">\*</mark> | <p>Tên Brandname (tên công ty hay tổ chức khi gửi tin sẽ hiển thị trên tin nhắn đó). <br><strong>Chú ý: sẽ phải đăng ký trước khi sử dụng.</strong></p> |
 | SmsType <mark style="color:red;">\*</mark>   | <p>Loại tin nhắn<br>2: Tin CSKH</p>                                                                                                                     |
 | CallbackUrl                                  | Kết quả tin nhắn eSMS trả về                                                                                                                            |
