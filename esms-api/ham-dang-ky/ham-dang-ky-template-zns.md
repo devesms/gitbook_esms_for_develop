@@ -23,7 +23,8 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/RegisZN
     "CTA1":"CTA 1",
     "CTA2":"CTA 2",
     "OAID":"OAID",
-    "SmsType":"smstype"
+    "SmsType":"smstype",
+    "CallbackUrl":"CallbackUrl"
 }'
 ```
 
@@ -39,6 +40,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/RegisZN
 | CTA 2                                        | Link CTA thứ hai                                                                                                                                                                                                               |
 | OAID <mark style="color:red;">\*</mark>      | <p>Zalo OA ID, là ID của trang Zalo Offical Account của doanh nghiệp. Doanh nghiệp cần đăng nhập vào trang quản trị của Zalo OA để lấy phần Zalo OA ID này. <br><strong>Chú ý: sẽ phải đăng ký trước khi sử dụng.</strong></p> |
 | SmsType<mark style="color:red;">\*</mark>    | <p>24: khi đăng ký template zalo ưu tiên<br>25: khi đăng ký template zalo bình thường</p>                                                                                                                                      |
+| CallbackUrl                                  | <p>Link nhận trạng thái template đăng ký<br>0: Đăng ký thất bại.<br>1: eSMS tiếp nhận thành công.<br>2: Đăng ký thành công.</p>                                                                                                |
 
 * Mẫu kết quả trả về
 
