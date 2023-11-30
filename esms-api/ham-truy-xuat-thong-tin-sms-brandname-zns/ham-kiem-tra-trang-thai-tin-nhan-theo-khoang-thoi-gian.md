@@ -10,64 +10,78 @@ description: API cho phép đối tác lấy sản lượng tin nhắn trong m�
   Content Type: text/plain
 
 ```
-curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V1' \
+curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V1' \
 --header 'Content-Type: text/plain' \
---header 'Cookie: ASP.NET_SessionId=owevtxyrtqm5gvj5zwjfeb2z' \
---data-raw '<RQST>
+--data '<RQST>
  <APIKEY>{{ApiKey}}</APIKEY>
  <SECRETKEY>{{SecretKey}}</SECRETKEY>
- <FROM>2022/07/26 00:00:00</FROM>
- <TO>2022/07/26 11:00:00</TO>
+ <FROM>2023/10/01 00:00:00</FROM>
+ <TO>2023/10/03 23:59:59</TO>
+ <PAGE>1</PAGE>
+ <PAGESIZE>500</PAGESIZE>
+ <SMSTYPE>{{SMSType}}</SMSTYPE>
 </RQST>'
 ```
 
 * Thông tin request
 
-| Biến                                         | Định nghĩa              |
-| -------------------------------------------- | ----------------------- |
-| APIKEY <mark style="color:red;">\*</mark>    | ApiKey của tài khoản    |
-| SECRETKEY <mark style="color:red;">\*</mark> | Secretkey của tài khoản |
-| FROM <mark style="color:red;">\*</mark>      | Ngày bắt đầu lấy tin    |
-| TO <mark style="color:red;">\*</mark>        | Ngày kết thúc lấy tin   |
+| Biến                                         | Định nghĩa                                      |
+| -------------------------------------------- | ----------------------------------------------- |
+| APIKEY <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                            |
+| SECRETKEY <mark style="color:red;">\*</mark> | Secretkey của tài khoản                         |
+| FROM <mark style="color:red;">\*</mark>      | Ngày bắt đầu lấy tin                            |
+| TO <mark style="color:red;">\*</mark>        | Ngày kết thúc lấy tin (tối đa 3 ngày)           |
+| PAGE                                         | Lấy bắt đầu từ trang bao nhiêu                  |
+| PAGESIZE                                     | Số lượng tin nhắn cần xem (tối đa 500 tin nhắn) |
+| SMSTYPE <mark style="color:red;">\*</mark>   | Loại tin nhắn                                   |
 
 * Mẫu kết quả trả về
 
 ```
 {
     "CodeResult": "100",
+    "CountTotal": 518,
     "SentData": [
         {
+            "Campaign": "Chiến dịch 02/10/2023",
             "Content": "Cam on quy khach da su dung dich vu cua chung toi. Chuc quy khach mot ngay tot lanh!",
             "Phone": "0901888484",
-            "RefercenceId": "ea6a83e0-9f9d-44cf-a561-46814324a86f40",
-            "SellPrice": 820.0000,
-            "SentStatus": true,
-            "SentTime": "/Date(1659410201873+0700)/",
-            "SmsId": 497819097,
+            "ReferenceId": "02e26dff-edc0-4726-8614-e425c21915f3152",
+            "SellPrice": 790.000,
+            "SendStatus": 5,
+            "SentResult": true,
+            "SentTime": "23/11/2023 17:06:37",
+            "SmsId": 860903326,
             "SmsType": 2
         },
         {
+            "Campaign": "Chiến dịch 02/10/2023",
             "Content": "Cam on quy khach da su dung dich vu cua chung toi. Chuc quy khach mot ngay tot lanh!",
             "Phone": "0901888484",
-            "RefercenceId": "51c685ab-e1af-4069-86de-3ab902ed0bc647",
+            "ReferenceId": "0aac72e0-ba9b-4348-8530-d18d105778db18",
             "SellPrice": 790.0000,
-            "SentStatus": false,
-            "SmsId": 497819096,
+            "SendStatus": 5,
+            "SentResult": true,
+            "SentTime": "23/11/2023 17:45:23",
+            "SmsId": 862970481,
             "SmsType": 2
         }
-                ]
-        }
+    ]
+}
 ```
 
 * Thông tin kết quả trả về
 
 | Biến         | Định nghĩa                                                                                                                   |
 | ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
+| CountTotal   | Tổng số tin nhắn                                                                                                             |
+| Campaign     | Tên chiến dịch                                                                                                               |
 | Content      | Nội dung tin nhắn                                                                                                            |
 | Phone        | Số điện thoại nhận tin nhắn                                                                                                  |
 | RefercenceId | SmsId trả về từ các hàm gửi tin nhắn                                                                                         |
 | Sellprice    | Giá của tin                                                                                                                  |
-| SentStatus   | <p>Trạng thái gửi tin<br>true: Tin thành công<br>false: Tin thất bại</p>                                                     |
+| SendStatus   | <p>Trạng thái gửi tin</p><p>1: Chờ duyệt</p><p>2: Chờ gửi</p><p>3: Đang gửi</p><p>4: Từ chối</p><p>5: Thành công</p>         |
+| SentResult   | <p>Kết quả gửi tin:<br>true: Tin thành công<br>false: Tin thất bại</p>                                                       |
 | SentTime     | Thời gian gửi tin                                                                                                            |
 | SmsId        | Id của tin nhắn trên giao diện                                                                                               |
 | SmsType      | <p>Loại tin nhắn<br>1: Tin quảng cáo<br>2: Tin CSKH<br>8: Tin Cố định giá rẻ<br>24: Zalo ưu tiên<br>25: Zalo bình thường</p> |
