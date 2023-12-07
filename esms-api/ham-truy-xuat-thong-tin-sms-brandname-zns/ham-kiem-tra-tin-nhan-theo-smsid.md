@@ -1,5 +1,7 @@
 ---
-description: Hàm giúp bạn kiểm tra trạng thái của tin nhắn đã gửi đi.
+description: >-
+  Hàm giúp bạn kiểm tra trạng thái của tin nhắn đã gửi đi. Lưu ý: Chỉ lấy dữ
+  liệu các tin trong vòng 7 ngày gần nhất.
 ---
 
 # Hàm kiểm tra tin nhắn theo SMSID
