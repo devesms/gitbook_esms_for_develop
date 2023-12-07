@@ -1,8 +1,8 @@
 ---
 description: >-
-  Hàm lấy danh sách số điện thoại của một tin nhắn đã gửi (dựa trên SmsID hệ
-  thống trả về) kèm theo trạng thái gửi (Số điện thoại đó đã gửi thành công
-  chưa?)
+  Hàm lấy danh sách SĐT của một tin nhắn đã gửi (dựa trên SmsID hệ thống trả về)
+  kèm theo trạng thái gửi (SĐT đó đã gửi thành công chưa?). Lưu ý: Chỉ lấy dữ
+  liệu các tin trong vòng 7 ngày gần nhất.
 ---
 
 # Hàm kiểm tra chi tiết từng số trong tin nhắn
