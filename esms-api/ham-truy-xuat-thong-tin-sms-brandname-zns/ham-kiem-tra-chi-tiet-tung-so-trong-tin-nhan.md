@@ -12,8 +12,7 @@ description: >-
   Method: GET
 
 ```
-curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/GetSmsReceiverStatus_get?&ApiKey={{ApiKey}}&SecretKey={{SecretKey}}&RefId={{SMSID}}' \
---header 'Cookie: ASP.NET_SessionId=owevtxyrtqm5gvj5zwjfeb2z'
+curl --location -g --request GET 'http://rest.esms.vn/MainService.svc/json/GetSmsReceiverStatus_get?&ApiKey={{ApiKey}}&SecretKey={{SecretKey}}&RefId={{SMSID}}'
 ```
 
 * Thông tin request
