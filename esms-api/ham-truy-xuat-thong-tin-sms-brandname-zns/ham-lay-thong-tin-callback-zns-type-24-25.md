@@ -6,22 +6,28 @@
   Content Type: application/json
 
 ```
-curl --location --request POST 'http://status-sms.esms.vn/ZaloCallback/GetCallback' \
+curl --location 'http://status-sms.esms.vn/ZaloCallback/GetCallback' \
 --header 'Content-Type: application/json' \
---data-raw '{
+--data '{
+    "ApiKey":"{{ApiKey}}",
+    "SecretKey":"{{SecretKey}}",
     "ListRefid": [
-        "4a496110-9fd3-4838-ac8b-bcaa36616f7011"
+        "41a35814-81d7-4ad1-9cce-1ac7fddd5f34196",
+        "41a35814-81d7-4ad1-9cce-1ac7fddd5f34197",
+        "41a35814-81d7-4ad1-9cce-1ac7fddd5f34198"
     ],
-    "OAId": "OAID"
-}'
+    "OAId": "{{OAId}}"
+}
 ```
 
 * Thông tin request
 
-| Biến      | Định nghĩa                        |
-| --------- | --------------------------------- |
-| ListRefid | Danh sách ReferenceId đã gửi tin  |
-| OAId      | Id của OA đã gửi tin              |
+| Biến      | Định nghĩa                                                                                                                                    |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| ListRefid | <p>Danh sách ReferenceId đã gửi tin.<br>Giới hạn 200 RefId, truyền nhiều hơn sẽ chỉ lấy callback của 200 RefId theo thứ tự từ trên xuống.</p> |
+| OAId      | Id của OA đã gửi tin                                                                                                                          |
+| ApiKey    | ApiKey của tài khoản                                                                                                                          |
+| SecretKey | SecretKey của tài khoản                                                                                                                       |
 
 * Mẫu kết quả trả về
 
