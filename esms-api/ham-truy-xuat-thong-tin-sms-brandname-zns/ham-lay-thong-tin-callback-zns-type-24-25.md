@@ -86,6 +86,6 @@ curl --location 'http://status-sms.esms.vn/ZaloCallback/GetCallback' \
 Chú ý:
 
 * Số ReferenceId tối đa cho 1 lần request là 200, nhiều hơn 200 sẽ chỉ trả 200 ReferenceId đầu tiên.
-* Giới hạn request 20TPS
+* Giới hạn request 20TPS.
 {% endhint %}
 
