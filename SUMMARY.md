@@ -21,7 +21,7 @@
   * [Hàm lấy danh sách template Zalo OTT](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-danh-sach-template-zalo-ott.md)
   * [Hàm tạm tính giá tin nhắn ZNS](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-tam-tinh-gia-tin-nhan-zns.md)
   * [Hàm lấy Quota ZNS](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-quota-zns.md)
-  * [Hàm lấy trạng thái template Rating](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-trang-thai-template-rating.md)
+  * [Hàm lấy thông tin đánh giá của khách hàng](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-thong-tin-danh-gia-cua-khach-hang.md)
   * [Hàm kiểm tra chất lượng OA](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-kiem-tra-chat-luong-oa.md)
   * [Hàm lấy danh sách Zalo Followers](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-danh-sach-zalo-followers.md)
   * [Hàm lấy thông tin callback ZNS  (Type 24, 25)](esms-api/ham-truy-xuat-thong-tin-sms-brandname-zns/ham-lay-thong-tin-callback-zns-type-24-25.md)
