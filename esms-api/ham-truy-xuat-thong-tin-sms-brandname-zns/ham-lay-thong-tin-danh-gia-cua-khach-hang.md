@@ -1,4 +1,4 @@
-# Hàm lấy trạng thái template Rating
+# Hàm lấy thông tin đánh giá của khách hàng
 
 * HTTP request \
   URL: [http://rest.esms.vn/MainService.svc/json/ZNS/GetRating/](http://rest.esms.vn/MainService.svc/json/ZNS/GetRating/)\
@@ -8,7 +8,6 @@
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/ZNS/GetRating/' \
 --header 'Content-Type: application/json' \
---header 'Cookie: ASP.NET_SessionId=ghob0j1dr00pujmvzhk5w4nk' \
 --data-raw '{
     "ApiKey": "{ApiKey}}",
     "SecretKey": "{{SecretKey}}",
