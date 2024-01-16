@@ -1,5 +1,5 @@
 ---
-description: API cho phép đối tác lấy sản lượng tin nhắn trong một khoảng thời gian
+description: API cho phép đối tác lấy sản lượng tin nhắn trong một khoảng thời gian.
 ---
 
 # Hàm kiểm tra trạng thái tin nhắn theo khoảng thời gian
@@ -15,7 +15,7 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 --data '{
     "ApiKey":"{{ApiKey}}",
     "SecretKey":"{{SecretKey}}",
-    "SmsType":2,
+    "SmsType":{{SmsType}},
     "From": "2023-11-10 14:00:00",
     "To":"2023-11-30 14:00:00",
     "Page":1,
