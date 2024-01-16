@@ -7,20 +7,20 @@ description: API cho phép đối tác lấy sản lượng tin nhắn trong m�
 * HTTP request\
   URL: [http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V1](http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V1)\
   Method: POST\
-  Content Type: text/plain
+  Content Type:  application/json
 
 ```
-curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V1' \
---header 'Content-Type: text/plain' \
---data '<RQST>
- <APIKEY>{{ApiKey}}</APIKEY>
- <SECRETKEY>{{SecretKey}}</SECRETKEY>
- <FROM>2023/10/01 00:00:00</FROM>
- <TO>2023/10/03 23:59:59</TO>
- <PAGE>1</PAGE>
- <PAGESIZE>500</PAGESIZE>
- <SMSTYPE>{{SMSType}}</SMSTYPE>
-</RQST>'
+curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
+--header 'Content-Type: application/json' \
+--data '{
+    "ApiKey":"{{ApiKey}}",
+    "SecretKey":"{{SecretKey}}",
+    "SmsType":2,
+    "From": "2023-11-10",
+    "To":"2023-11-30 14:00:00",
+    "Page":1,
+    "PageSize":500
+}'
 ```
 
 * Thông tin request
