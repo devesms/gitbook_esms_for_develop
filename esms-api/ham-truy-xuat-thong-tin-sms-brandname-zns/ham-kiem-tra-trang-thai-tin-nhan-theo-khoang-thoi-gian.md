@@ -16,7 +16,7 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
     "ApiKey":"{{ApiKey}}",
     "SecretKey":"{{SecretKey}}",
     "SmsType":2,
-    "From": "2023-11-10",
+    "From": "2023-11-10 14:00:00",
     "To":"2023-11-30 14:00:00",
     "Page":1,
     "PageSize":500
