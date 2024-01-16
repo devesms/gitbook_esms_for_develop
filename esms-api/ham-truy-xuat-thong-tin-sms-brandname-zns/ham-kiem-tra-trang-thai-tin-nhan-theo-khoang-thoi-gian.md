@@ -5,7 +5,7 @@ description: API cho phép đối tác lấy sản lượng tin nhắn trong m�
 # Hàm kiểm tra trạng thái tin nhắn theo khoảng thời gian
 
 * HTTP request\
-  URL: [http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V1](http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V1)\
+  URL: [http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2'](http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2')\
   Method: POST\
   Content Type:  application/json
 
@@ -27,13 +27,15 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 
 | Biến                                         | Định nghĩa                                      |
 | -------------------------------------------- | ----------------------------------------------- |
-| APIKEY <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                            |
-| SECRETKEY <mark style="color:red;">\*</mark> | Secretkey của tài khoản                         |
-| FROM <mark style="color:red;">\*</mark>      | Ngày bắt đầu lấy tin                            |
-| TO <mark style="color:red;">\*</mark>        | Ngày kết thúc lấy tin (tối đa 3 ngày)           |
-| PAGE                                         | Lấy bắt đầu từ trang bao nhiêu                  |
-| PAGESIZE                                     | Số lượng tin nhắn cần xem (tối đa 500 tin nhắn) |
-| SMSTYPE <mark style="color:red;">\*</mark>   | Loại tin nhắn                                   |
+| ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                            |
+| SecretKey <mark style="color:red;">\*</mark> | Secretkey của tài khoản                         |
+| From <mark style="color:red;">\*</mark>      | Ngày bắt đầu lấy tin                            |
+| To <mark style="color:red;">\*</mark>        | Ngày kết thúc lấy tin (tối đa 3 ngày)           |
+| <pre><code>Page
+</code></pre>                | Lấy bắt đầu từ trang bao nhiêu                  |
+| <pre><code>PageSize
+</code></pre>            | Số lượng tin nhắn cần xem (tối đa 500 tin nhắn) |
+| SmsType <mark style="color:red;">\*</mark>   | Loại tin nhắn                                   |
 
 * Mẫu kết quả trả về
 
