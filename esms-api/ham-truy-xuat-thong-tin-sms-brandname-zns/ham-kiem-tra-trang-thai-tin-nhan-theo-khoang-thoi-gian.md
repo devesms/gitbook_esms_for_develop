@@ -25,18 +25,7 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 
 * Thông tin request
 
-| Biến                                         | Định nghĩa                                                                     |
-| -------------------------------------------- | ------------------------------------------------------------------------------ |
-| ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                                                           |
-| SecretKey <mark style="color:red;">\*</mark> | Secretkey của tài khoản                                                        |
-| From <mark style="color:red;">\*</mark>      | <p>Ngày bắt đầu lấy tin<br> Định dạng: yyyy-MM-dd HH:mm:ss</p>                 |
-|                                              |                                                                                |
-| To <mark style="color:red;">\*</mark>        | <p>Ngày kết thúc lấy tin (tối đa 3 ngày)<br>Định dạng: yyyy-MM-dd HH:mm:ss</p> |
-| <pre><code>Page
-</code></pre>                | Lấy bắt đầu từ trang bao nhiêu                                                 |
-| <pre><code>PageSize
-</code></pre>            | Số lượng tin nhắn cần xem (tối đa 500 tin nhắn)                                |
-| SmsType <mark style="color:red;">\*</mark>   | Loại tin nhắn                                                                  |
+<table><thead><tr><th width="172">Biến</th><th>Định nghĩa</th></tr></thead><tbody><tr><td>ApiKey <mark style="color:red;">*</mark></td><td>ApiKey của tài khoản.</td></tr><tr><td>SecretKey <mark style="color:red;">*</mark></td><td>Secretkey của tài khoản.</td></tr><tr><td>From <mark style="color:red;">*</mark></td><td>Ngày bắt đầu lấy tin.<br> Định dạng: yyyy-MM-dd HH:mm:ss.</td></tr><tr><td>To <mark style="color:red;">*</mark></td><td>Ngày kết thúc lấy tin.<br>Định dạng: yyyy-MM-dd HH:mm:ss.</td></tr><tr><td>Page</td><td>Lấy bắt đầu từ trang bao nhiêu.</td></tr><tr><td>PageSize</td><td>Số lượng tin nhắn cần xem (tối đa 500 tin nhắn).</td></tr><tr><td>SmsType <mark style="color:red;">*</mark></td><td>Loại tin nhắn<br>1: Tin quảng cáo.<br>2: Tin CSKH.<br>8: Tin Cố định giá rẻ.<br>23: Tin Viber.<br>24: Zalo ưu tiên.<br>25: Zalo bình thường.<br>26: Zalo Follower.</td></tr></tbody></table>
 
 
 
@@ -77,16 +66,16 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 
 * Thông tin kết quả trả về
 
-| Biến         | Định nghĩa                                                                                                                   |
-| ------------ | ---------------------------------------------------------------------------------------------------------------------------- |
-| CountTotal   | Tổng số tin nhắn                                                                                                             |
-| Campaign     | Tên chiến dịch                                                                                                               |
-| Content      | Nội dung tin nhắn                                                                                                            |
-| Phone        | Số điện thoại nhận tin nhắn                                                                                                  |
-| RefercenceId | SmsId trả về từ các hàm gửi tin nhắn                                                                                         |
-| Sellprice    | Giá của tin                                                                                                                  |
-| SendStatus   | <p>Trạng thái gửi tin</p><p>1: Chờ duyệt</p><p>2: Chờ gửi</p><p>3: Đang gửi</p><p>4: Từ chối</p><p>5: Thành công</p>         |
-| SentResult   | <p>Kết quả gửi tin:<br>true: Tin thành công<br>false: Tin thất bại</p>                                                       |
-| SentTime     | Thời gian gửi tin                                                                                                            |
-| SmsId        | Id của tin nhắn trên giao diện                                                                                               |
-| SmsType      | <p>Loại tin nhắn<br>1: Tin quảng cáo<br>2: Tin CSKH<br>8: Tin Cố định giá rẻ<br>24: Zalo ưu tiên<br>25: Zalo bình thường</p> |
+| Biến         | Định nghĩa                                                                                                                                                                |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| CountTotal   | Tổng số tin nhắn.                                                                                                                                                         |
+| Campaign     | Tên chiến dịch.                                                                                                                                                           |
+| Content      | Nội dung tin nhắn.                                                                                                                                                        |
+| Phone        | Số điện thoại nhận tin nhắn.                                                                                                                                              |
+| RefercenceId | SmsId trả về từ các hàm gửi tin nhắn.                                                                                                                                     |
+| Sellprice    | Giá của tin.                                                                                                                                                              |
+| SendStatus   | <p>Trạng thái gửi tin</p><p>1: Chờ duyệt.</p><p>2: Chờ gửi.</p><p>3: Đang gửi.</p><p>4: Từ chối.</p><p>5: Thành công.</p>                                                 |
+| SentResult   | <p>Kết quả gửi tin:<br>true: Tin thành công.<br>false: Tin thất bại.</p>                                                                                                  |
+| SentTime     | Thời gian gửi tin.                                                                                                                                                        |
+| SmsId        | Id của tin nhắn trên giao diện.                                                                                                                                           |
+| SmsType      | <p>Loại tin nhắn<br>1: Tin quảng cáo.<br>2: Tin CSKH.<br>8: Tin Cố định giá rẻ.<br>23: Tin Viber.<br>24: Zalo ưu tiên.<br>25: Zalo bình thường.<br>26: Zalo Follower.</p> |
