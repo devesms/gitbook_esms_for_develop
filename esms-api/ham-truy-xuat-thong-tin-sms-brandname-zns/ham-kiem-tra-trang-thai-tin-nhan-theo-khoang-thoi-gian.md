@@ -40,12 +40,11 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
             "Campaign": "Chiến dịch 02/10/2023",
             "Content": "Cam on quy khach da su dung dich vu cua chung toi. Chuc quy khach mot ngay tot lanh!",
             "Phone": "0901888484",
-            "ReferenceId": "02e26dff-edc0-4726-8614-e425c21915f3152",
-            "SellPrice": 790.000,
-            "SendStatus": 5,
-            "SentResult": true,
-            "SentTime": "23/11/2023 17:06:37",
-            "SmsId": 860903326,
+            "ReferenceId": "35781d6c25524e40a035c26663189549",
+            "SellPrice": 345.0,
+            "SentStatus": true,
+            "SentTime": "/Date(1705484048995+0700)/",
+            "SmsId": 29028845,
             "SmsType": 2
         },
         {
@@ -54,10 +53,9 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
             "Phone": "0901888484",
             "ReferenceId": "0aac72e0-ba9b-4348-8530-d18d105778db18",
             "SellPrice": 790.0000,
-            "SendStatus": 5,
-            "SentResult": true,
-            "SentTime": "23/11/2023 17:45:23",
-            "SmsId": 862970481,
+            "SentStatus": false,
+            "SentTime": "/Date(1705484048995+0700)/",
+            "SmsId": 29028845,
             "SmsType": 2
         }
     ]
@@ -74,7 +72,7 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 | Phone        | Số điện thoại nhận tin nhắn.                                                                                                                                              |
 | RefercenceId | SmsId trả về từ các hàm gửi tin nhắn.                                                                                                                                     |
 | Sellprice    | Giá của tin.                                                                                                                                                              |
-| SendStatus   | <p>Trạng thái gửi tin</p><p>1: Chờ duyệt.</p><p>2: Chờ gửi.</p><p>3: Đang gửi.</p><p>4: Từ chối.</p><p>5: Thành công.</p>                                                 |
+| SentStatus   | <p>Trạng thái tin nhắn:</p><p>true: Thành công.<br>false: Thất bại.</p>                                                                                                   |
 | SentResult   | <p>Kết quả gửi tin:<br>true: Tin thành công.<br>false: Tin thất bại.</p>                                                                                                  |
 | SentTime     | Thời gian gửi tin.                                                                                                                                                        |
 | SmsId        | Id của tin nhắn trên giao diện.                                                                                                                                           |
