@@ -11,14 +11,17 @@ curl --location --request GET 'http://rest.esms.vn/MainService.svc/json/SummaryM
 
 * Thông tin request
 
-| Biến                                         | Định nghĩa                                               |
-| -------------------------------------------- | -------------------------------------------------------- |
-| ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản                                     |
-| SecretKey <mark style="color:red;">\*</mark> | SecretKey của tài khoản                                  |
-| Brandname <mark style="color:red;">\*</mark> | Tên thương hiệu                                          |
-| SmsType <mark style="color:red;">\*</mark>   | Loại tin nhắn, SmsType = 2: Loại tin chăm sóc khách hàng |
-| Phone <mark style="color:red;">\*</mark>     | Số điện thoại nhận tin                                   |
-| Content <mark style="color:red;">\*</mark>   | Nội dung tin nhắn                                        |
+| Biến                                         | Định nghĩa                                                                       |
+| -------------------------------------------- | -------------------------------------------------------------------------------- |
+| ApiKey <mark style="color:red;">\*</mark>    | ApiKey của tài khoản.                                                            |
+| SecretKey <mark style="color:red;">\*</mark> | SecretKey của tài khoản.                                                         |
+| Brandname <mark style="color:red;">\*</mark> | Tên thương hiệu.                                                                 |
+| SmsType <mark style="color:red;">\*</mark>   | Loại tin nhắn, SmsType = 2: Loại tin chăm sóc khách hàng.                        |
+| Phone <mark style="color:red;">\*</mark>     | Số điện thoại nhận tin.                                                          |
+| Content <mark style="color:red;">\*</mark>   | Nội dung tin nhắn.                                                               |
+| IsUnicode                                    | <p>Nội dung có chứ Unicode:<br>0: Nội dung không dấu.<br>1: Nội dung có dấu.</p> |
+
+
 
 * Mẫu kết quả trả về
 
