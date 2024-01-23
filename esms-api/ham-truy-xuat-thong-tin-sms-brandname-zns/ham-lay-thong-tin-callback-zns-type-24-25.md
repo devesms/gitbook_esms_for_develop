@@ -17,7 +17,7 @@ curl --location 'http://status-sms.esms.vn/ZaloCallback/GetCallback' \
         "41a35814-81d7-4ad1-9cce-1ac7fddd5f34198"
     ],
     "OAId": "{{OAId}}"
-}
+}'
 ```
 
 * Thông tin request
