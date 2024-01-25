@@ -17,7 +17,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
    "SmsType": "2",
    "IsUnicode": 0,
    "Sandbox": 0,
-   "campaignid": "{{campaignid}}"
+   "campaignid": "{{campaignid}}",
    "RequestId": "{{RequestId}}",
    "CallbackUrl": "{{CallbackUrl}}"
 }'
