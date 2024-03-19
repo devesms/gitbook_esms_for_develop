@@ -5,7 +5,7 @@ description: API cho phép đối tác lấy sản lượng tin nhắn trong m�
 # Hàm kiểm tra trạng thái tin nhắn theo khoảng thời gian
 
 * HTTP request\
-  URL: [http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2'](http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2')\
+  URL: [http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2](http://rest.esms.vn/MainService.svc/json/GetSmsSentData\_V2')\
   Method: POST\
   Content Type:  application/json
 
@@ -42,7 +42,8 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
             "Phone": "0901888484",
             "ReferenceId": "35781d6c25524e40a035c26663189549",
             "SellPrice": 345.0,
-            "SentStatus": true,
+            "SendResult": 0,
+            "SendStatus:5,
             "SentTime": "/Date(1705484048995+0700)/",
             "SmsId": 29028845,
             "SmsType": 2
@@ -53,7 +54,8 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
             "Phone": "0901888484",
             "ReferenceId": "0aac72e0-ba9b-4348-8530-d18d105778db18",
             "SellPrice": 790.0000,
-            "SentStatus": false,
+            "SendResult": 1,
+            "SendStatus:5,
             "SentTime": "/Date(1705484048995+0700)/",
             "SmsId": 29028845,
             "SmsType": 2
@@ -72,7 +74,8 @@ curl --location 'http://rest.esms.vn/MainService.svc/json/GetSmsSentData_V2' \
 | Phone        | Số điện thoại nhận tin nhắn.                                                                                                                                              |
 | RefercenceId | SmsId trả về từ các hàm gửi tin nhắn.                                                                                                                                     |
 | Sellprice    | Giá của tin.                                                                                                                                                              |
-| SentStatus   | <p>Trạng thái tin nhắn:</p><p>true: Thành công.<br>false: Thất bại.</p>                                                                                                   |
+| SendResult   | <p>Trạng thái tin nhắn:</p><p>1: Tin đã được gửi thành công.<br>0: Tin thất bại.<br>2: Tin chưa xác định trạng thái.</p>                                                  |
+| SendStatus   | <p>0: Đang soạn thảo.<br>1: Chờ duyệt.<br>2: Chờ gửi.<br>4: Từ chối.<br>5: Đã gửi xong.<br>7: Đã gửi chờ báo cáo</p>                                                      |
 | SentTime     | Thời gian gửi tin.                                                                                                                                                        |
 | SmsId        | Id của tin nhắn trên giao diện.                                                                                                                                           |
 | SmsType      | <p>Loại tin nhắn<br>1: Tin quảng cáo.<br>2: Tin CSKH.<br>8: Tin Cố định giá rẻ.<br>23: Tin Viber.<br>24: Zalo ưu tiên.<br>25: Zalo bình thường.<br>26: Zalo Follower.</p> |
