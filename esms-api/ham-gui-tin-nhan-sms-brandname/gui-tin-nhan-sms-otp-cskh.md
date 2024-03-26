@@ -1,4 +1,4 @@
-# Gửi tin SMS CSKH
+# Gửi tin nhắn SMS OTP/CSKH
 
 
 
@@ -55,6 +55,32 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
     "SMSID": "d533459ee42b2b9525ba9eabf6a8156"
 }
 ```
+
+**\*Request hợp lệ**
+{% endtab %}
+
+{% tab title="104" %}
+```json
+{
+    "CodeResult": "104",
+    "CountRegenerate": 0,
+    "ErrorMessage": "Brand name code is not exist"
+}
+```
+
+**\*Brandname truyền chưa đúng hoặc chưa được active**
+{% endtab %}
+
+{% tab title="101" %}
+```json
+{
+    "CodeResult": "101",
+    "CountRegenerate": 0,
+    "ErrorMessage": "Authorize Failed"
+}
+```
+
+**\*Sai thông tin ApiKey hoặc SecretKey**
 {% endtab %}
 
 {% tab title="99" %}
@@ -63,6 +89,8 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
   "error": "Invalid request"
 }
 ```
+
+\*Kiểm tra lại thông tin kết nối hoặc liên hệ bộ phận chăm sóc khách hàng để được hỗ trợ khi gặp lỗi này.
 {% endtab %}
 {% endtabs %}
 
@@ -76,8 +104,8 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 | SMSID        | String       | ID tin nhắn do esms trả về        |
 | ErrorMessage | String       | Thông tin lỗi trả về (nếu có lỗi) |
 
-_**\*Chi tiết mã lỗi xem ở trang "**_[_**Mã Lỗi**_](../ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-moi-khach-hang-mot-noi-dung.md)_**"**_
+_**\***<mark style="color:red;">**Chi tiết mã lỗi xem ở trang:**</mark>_ [_**Mã Lỗi**_](../ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-moi-khach-hang-mot-noi-dung.md)
 
-**\* **<mark style="color:red;">**Lấy code mẫu các ngôn ngữ trên Postman:**</mark> [**linkpostman**](https://esms.vn/)
+**\* **_<mark style="color:red;">**Lấy code mẫu các ngôn ngữ trên Postman:**</mark>_ [**linkpostman**](https://esms.vn/)
 
-**\* **<mark style="color:red;">**Hướng dẫn lấy code mẫu:**</mark> [**video**](https://esms.vn/)
+**\* **_<mark style="color:red;">**Hướng dẫn lấy code mẫu:**</mark>_ [**video**](https://esms.vn/)
