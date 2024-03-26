@@ -39,7 +39,7 @@
   * [Gửi tin Cố định giá rẻ (TypeSMS 8) dạng POST](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-co-dinh-gia-re-typesms-8-dang-post.md)
   * [Gửi tin Quảng cáo (TypeSMS 1)](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-quang-cao-typesms-1.md)
   * [Gửi tin Quảng cáo (TypeSMS 1) dạng POST](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-quang-cao-typesms-1-dang-post.md)
-  * [Gửi tin SMS CSKH](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-sms-cskh.md)
+  * [Gửi tin nhắn SMS OTP/CSKH](esms-api/ham-gui-tin-nhan-sms-brandname/gui-tin-nhan-sms-otp-cskh.md)
 * [Hàm gửi tin nhắn ZNS](esms-api/ham-gui-tin-nhan-zns/README.md)
   * [Hàm gửi tin ZNS](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-zns.md)
   * [Hàm gửi tin nhắn MultiChanel](esms-api/ham-gui-tin-nhan-zns/ham-gui-tin-nhan-multichanel.md)
