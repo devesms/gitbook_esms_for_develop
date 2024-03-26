@@ -93,7 +93,7 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 }
 ```
 
-\*Kiểm tra lại thông tin kết nối hoặc liên hệ bộ phận chăm sóc khách hàng để được hỗ trợ khi gặp lỗi này.
+**\*Kiểm tra lại thông tin kết nối hoặc liên hệ bộ phận chăm sóc khách hàng để được hỗ trợ khi gặp lỗi này.**
 {% endtab %}
 {% endtabs %}
 
