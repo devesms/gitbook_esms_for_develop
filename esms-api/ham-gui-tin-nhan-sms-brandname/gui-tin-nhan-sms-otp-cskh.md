@@ -6,6 +6,9 @@
 
 <mark style="color:green;">**`POST`**</mark> **http://rest.esms.vn/MainService.svc/json/SendMultipleMessage\_V4\_post\_json/**
 
+* **Content Type:** application/json
+* **Response Type:** application/json
+
 ```
 curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMultipleMessage_V4_post_json/' \
 --header 'Content-Type: application/json' \
