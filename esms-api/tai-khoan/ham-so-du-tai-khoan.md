@@ -1,7 +1,7 @@
 ---
 description: >-
   Đây là hàm cơ bản đầu tiên mà bạn nên thử, hàm giúp bạn lấy về số dư trong tài
-  khoản của bạn.
+  khoản của bạn. a
 ---
 
 # Hàm số dư tài khoản
@@ -9,7 +9,7 @@ description: >-
 
 
 * HTTP request\
-  URL: [http://rest.esms.vn/MainService.svc/json/GetBalance\_json](http://rest.esms.vn/MainService.svc/json/GetBalance\_json)\
+  URL: [http://rest.esms.vn/MainService.svc/json/GetBalance\_json](http://rest.esms.vn/MainService.svc/json/GetBalance_json)\
   Method: POST\
   Content Type: application/json
 * Request mẫu

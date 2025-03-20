@@ -40,6 +40,7 @@ curl --location --request POST 'https://rest.esms.vn/MainService.svc/json/MultiC
             "SmsType": {SmsType},
             "Brandname": "{Brandname}",
             "CallbackUrl": "{CallbackUrl}",
+            "RequestId":"{{RequestId}}",
             "Sandbox":"{{Sandbox}}"
         }
     ]

@@ -109,6 +109,6 @@ curl --location --request POST 'http://rest.esms.vn/MainService.svc/json/SendMul
 
 _**\***<mark style="color:red;">**Chi tiết mã lỗi xem ở trang:**</mark>_ [_**Mã Lỗi**_](../ham-gui-tin-nhan-zns/ham-gui-tin-nhan-zns-moi-khach-hang-mot-noi-dung.md)
 
-**\* **_<mark style="color:red;">**Lấy code mẫu các ngôn ngữ trên Postman:**</mark>_ [**link code mẫu**](https://postman.esms.vn/#b62c8cec-0728-4402-bb6a-4ee272fe73fc)
+**\*&#x20;**_<mark style="color:red;">**Lấy code mẫu các ngôn ngữ trên Postman:**</mark>_ [**link code mẫu**](https://postman.esms.vn/#b62c8cec-0728-4402-bb6a-4ee272fe73fc)
 
-**\* **_<mark style="color:red;">**Hướng dẫn lấy code mẫu:**</mark>_ [**video**](https://esms.vn/)
+**\*&#x20;**_<mark style="color:red;">**Hướng dẫn lấy code mẫu:**</mark>_ [**video**](https://esms.vn/)
